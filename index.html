@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Calculator</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="container">
+
+        <!-- left-image section starts here -->
+        <div class="image-section">
+            <img src="images/nathan-dumlao-Y3AqmbmtLQI-unsplash 1.png" alt="">
+        </div>
+        <!-- left-image section ends here -->
+
+        <div class="text-section">
+
+            <!-- logo & heading -->
+            <div class="heading-1">
+                <div class="logo">
+                    <img src="images/coffee_mug.png" alt="">
+                </div>
+                <div class="text-1">Coffee Estimator</div>
+            </div>
+            <!-- logo & heading end -->
+
+            <!-- right input section starts here -->
+            <div class="input-section">
+                <div class="inputs">
+                    <label for="">Cheapest cost per coffee:</label>
+                    <input type="text" placeholder="$cheapest" id="cheap-coffee">
+                </div>
+                <div class="inputs">
+                    <label for="">Expensive cost per coffee:</label>
+                    <input type="text" placeholder="$expensive" id="expensive-coffee">
+                </div>
+                <div class="inputs">
+                    <label>Number of coffees bought weekly</label>
+                </div>
+
+                <!-- day wise inputs starts -->
+                <div class="inputs weekly">
+                    <div class="columns">
+                        <div class="days">
+                            <label for="">Monday:</label>
+                            <input type="text" placeholder="Mno" id="monday-coffee">
+                        </div>
+                        <div class="days">
+                            <label for="">Friday:</label>
+                            <input type="text" placeholder="Fno" id="friday-coffee">
+                        </div>
+                    </div>
+                    <div class="columns">
+                        <div class="days">
+                            <label for="">Tuesday:</label>
+                            <input type="text" placeholder="Tno" id="tuesday-coffee">
+                        </div>
+                        <div class="days">
+                            <label for="">Saturday:</label>
+                            <input type="text" placeholder="SAno" id="satarday-coffee">
+                        </div>
+                    </div>
+                    <div class="columns">
+                        <div class="days">
+                            <label for="">Wednesday:</label>
+                            <input type="text" placeholder="Wno" id="wednesday-coffee">
+                        </div>
+                        <div class="days">
+                            <label for="">Sunday:</label>
+                            <input type="text" placeholder="SUno" id="sunday-coffee">
+                        </div>
+                    </div>
+                    <div class="columns">
+                        <div class="days">
+                            <label for="">Thursday:</label>
+                            <input type="text" placeholder="Tno" id="thursday-coffee">
+                        </div>
+                    </div>
+                </div>
+                <!-- day wise inputs ends -->
+
+                <!-- submission button-->
+                <div class="estimate">
+                    <button class="btn" id="submit">estimate my caffiene habit</button></div>
+            </div>
+            <!-- right input section ends here -->
+            <!-- results section starts here -->
+            <div class="result">
+                <div class="heading-2">
+                    <div class="text-2">Results</div>
+                </div>
+
+                <table>
+                    <tr>
+                        <td rowspan=" 4 "><img src="images/under_22 1.png " alt=" "></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h2> Average cost per Coffee:
+                            </h2>
+                        </td>
+                        <td><span>$average</span></td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <h2> Total Number of Coffees<br> in One Month:
+                            </h2>
+                        </td>
+                        <td><span class="abc">$month</span></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h2>Total Number of Coffees<br> in One Year:</h2>
+                        </td>
+                        <td><span class="abc">$year</span></td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="cost ">
+                <div class="monthly ">
+
+                    <h3>Monthly Cost</h3>
+                </div>
+                <div class="yearly ">
+                    <h3>Yearly Cost</h3>
+                </div>
+            </div>
+            <div class="datas ">
+                <div class="left ">
+                    <p>Only drinking most expensive: <span>$exM</span></p>
+                    <p>Only drinking cheapest: <span>$exM</span></p>
+                    <p>Drinking average cost: <span>$exM</span></p>
+                </div>
+                <div class="right ">
+                    <p>Only drinking most expensive: <span>$exM</span></p>
+                    <p>Only drinking cheapest: <span>$exM</span></p>
+                    <p>Drinking average cost: <span>$exM</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--custom script here-->
+    <script src="index.js"></script>
+</body>
+
+</html>
